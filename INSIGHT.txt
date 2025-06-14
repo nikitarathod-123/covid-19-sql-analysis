@@ -1,0 +1,60 @@
+# COVID-19 DATA ANALYSIS PROJECT
+
+A Basic Beginner Project to analyze and visualize Covid-19 data of three initial months From 04/01/2020 To 23/03/2020
+
+The purpose of this project was learning and implementing the basic concepts of MySQL and Python
+
+-------------------------------------
+## Data Source
+
+- Data was sourced from online WHO Data website.
+-------------------------------------
+## Tools Used
+
+- MySQL Workbench (for sql queries)
+- Thonny IDE (for visualization)
+- Python libraries: 
+    ~ pandas (reading csv files)
+    ~ matplotlib (visualizing data)
+    ~ mysql-connector-python (using queries in python)
+-------------------------------------
+## Insights Drawn From Data
+
+- China reported maximum number of cases
+- Italy reported maximum number of deaths (5476)
+- Spain is the country with the overall highest number of New_cases and New_deaths reported
+- Blank values in New_cases and New_deaths were replaced with 0.
+- All numerical columns converted to integer type.
+- India's daily new cases and deaths visualized using bar chart.
+--------------------------------------
+## Concepts covered
+
+- SQL & Database Interaction
+- Data Cleaning and Transformation
+- Data Analysis
+- Python Programming
+- Data Visualization
+-------------------------------------
+# Files Included
+- `who-covid-19-data.csv` – Dataset used for analysis
+- `covid-19-analysis_queries.sql` – SQL queries for analysis
+- `india_visualization_.png` – Bar graph visualizing new cases and deaths in India
+- `INSIGHT.txt` – Short description of the project
+> Python code is **not uploaded** to keep database credentials private.
+-------------------------------------
+# SQL Concepts Applied
+- `GROUP BY`
+- `ORDER BY`
+- `IS NULL` and other null handling
+- Aggregate functions (`SUM()`, `MAX()`, etc.)
+- Subqueries
+-------------------------------------
+## Future Improvements
+
+- Add time series analysis
+- Include more countries or time periods
+- Use seaborn/plotly for advanced visualizations
+- A better readme file to explain how to run code
+- Managing the database credentials 
+--------------------------------------
+Project was intended for educational purpose.  
